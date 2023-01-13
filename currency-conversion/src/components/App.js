@@ -1,10 +1,15 @@
+import React from 'react';
+import CurrencyRow from './CurrencyRow';
 import '../assets/App.css';
 
 function App() {
   return (
-    <div className="Main">
-
-    </div>
+    <>
+      <h1>Quick Currency Converter</h1>
+      <CurrencyRow />
+      <p>Is Equal To</p>
+      <CurrencyRow />
+    </>
   );
 }
 
